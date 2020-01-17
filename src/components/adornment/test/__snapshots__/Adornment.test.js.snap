@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Adornment should render an Avatar if the attribute is set snapshot 1`] = `
+<Avatar
+  size={25}
+>
+  <img
+    alt="Avatar of Name"
+    src="src"
+  />
+</Avatar>
+`;
+
+exports[`Adornment should render an Icon if avatar is not set snapshot 1`] = `
+<CrossIcon
+  color="#343434"
+  size={15}
+/>
+`;

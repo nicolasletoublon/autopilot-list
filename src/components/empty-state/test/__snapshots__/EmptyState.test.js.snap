@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyState should render his Button with Fetching Data if isFetching is true snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <EmptyState>
+    <styled.div>
+      <div
+        className="sc-AykKC ePlNtO"
+      >
+        <h4>
+          The list is empty. Click on the button below to load some data.
+        </h4>
+        <LoadingButton
+          disabled={true}
+          id="load-data-button"
+          onClick={[Function]}
+        >
+          <button
+            className="sc-AykKD hESRCL"
+            disabled={true}
+            id="load-data-button"
+            onClick={[Function]}
+          >
+            Fetching data...
+          </button>
+        </LoadingButton>
+      </div>
+    </styled.div>
+  </EmptyState>
+  ;
+</Provider>
+`;
+
+exports[`EmptyState should render his Button with Load Data if isFetching is false snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <EmptyState>
+    <styled.div>
+      <div
+        className="sc-AykKC ePlNtO"
+      >
+        <h4>
+          The list is empty. Click on the button below to load some data.
+        </h4>
+        <LoadingButton
+          disabled={false}
+          id="load-data-button"
+          onClick={[Function]}
+        >
+          <button
+            className="sc-AykKD hESRCL"
+            disabled={false}
+            id="load-data-button"
+            onClick={[Function]}
+          >
+            Load data
+          </button>
+        </LoadingButton>
+      </div>
+    </styled.div>
+  </EmptyState>
+  ;
+</Provider>
+`;

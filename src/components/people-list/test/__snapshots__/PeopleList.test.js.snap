@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PeopleList should render correctly 2 PeopleListItem and no More results snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <PeopleList>
+    <ListWrapper>
+      <div
+        className="sc-AykKH irqydb"
+      >
+        <styled.ul>
+          <ul
+            className="sc-AykKI eIKKZe"
+          >
+            <PeopleListItem
+              key="1"
+              name="name11"
+            >
+              <styled.li>
+                <li
+                  className="sc-AykKE zjrhr"
+                >
+                  <styled.div>
+                    <div
+                      className="sc-AykKF eijuMa"
+                    >
+                      <Adornment
+                        name="name11"
+                      >
+                        <CrossIcon
+                          color="#343434"
+                          size={15}
+                        >
+                          <styled.svg
+                            className="svg-icon"
+                            color="#343434"
+                            size={15}
+                          >
+                            <svg
+                              className="sc-AykKC kgFBDO svg-icon"
+                              color="#343434"
+                              fill="#343434"
+                              height="15px"
+                              size={15}
+                              viewBox="0 0 64 64"
+                              width="15px"
+                            >
+                              <path
+                                d="M36.440013,32.0000358 L63.0803642,58.640387 C63.8735026,59.4335253 64.1832584,60.5895496 63.8929496,61.6729968 C63.6026408,62.7564439 62.7563723,63.6027124 61.6729252,63.8930212 C60.589478,64.18333 59.4334537,63.8735742 58.6403154,63.0804358 L31.9999642,36.4400846 L5.35961303,63.0804358 C4.13352741,64.3065214 2.14564984,64.3065214 0.919564218,63.0804358 C-0.306521406,61.8543502 -0.306521406,59.8664726 0.919564218,58.640387 L27.5599154,32.0000358 L0.919564218,5.35968464 C-0.306521406,4.13359901 -0.306521406,2.14572145 0.919564218,0.919635821 C2.14564984,-0.306449804 4.13352741,-0.306449804 5.35961303,0.919635821 L31.9999642,27.559987 L58.6403154,0.919635821 C59.4334537,0.126497436 60.589478,-0.183258385 61.6729252,0.107050386 C62.7563723,0.397359156 63.6026408,1.24362771 63.8929496,2.32707485 C64.1832584,3.41052199 63.8735026,4.56654632 63.0803642,5.35968464 L36.440013,32.0000358 Z"
+                              />
+                            </svg>
+                          </styled.svg>
+                        </CrossIcon>
+                      </Adornment>
+                    </div>
+                  </styled.div>
+                  <NameWrapper>
+                    <div
+                      className="sc-AykKG jZCPjH"
+                    >
+                      name11
+                    </div>
+                  </NameWrapper>
+                </li>
+              </styled.li>
+            </PeopleListItem>
+            <PeopleListItem
+              key="2"
+              name="name12"
+            >
+              <styled.li>
+                <li
+                  className="sc-AykKE zjrhr"
+                >
+                  <styled.div>
+                    <div
+                      className="sc-AykKF eijuMa"
+                    >
+                      <Adornment
+                        name="name12"
+                      >
+                        <CrossIcon
+                          color="#343434"
+                          size={15}
+                        >
+                          <styled.svg
+                            className="svg-icon"
+                            color="#343434"
+                            size={15}
+                          >
+                            <svg
+                              className="sc-AykKC kgFBDO svg-icon"
+                              color="#343434"
+                              fill="#343434"
+                              height="15px"
+                              size={15}
+                              viewBox="0 0 64 64"
+                              width="15px"
+                            >
+                              <path
+                                d="M36.440013,32.0000358 L63.0803642,58.640387 C63.8735026,59.4335253 64.1832584,60.5895496 63.8929496,61.6729968 C63.6026408,62.7564439 62.7563723,63.6027124 61.6729252,63.8930212 C60.589478,64.18333 59.4334537,63.8735742 58.6403154,63.0804358 L31.9999642,36.4400846 L5.35961303,63.0804358 C4.13352741,64.3065214 2.14564984,64.3065214 0.919564218,63.0804358 C-0.306521406,61.8543502 -0.306521406,59.8664726 0.919564218,58.640387 L27.5599154,32.0000358 L0.919564218,5.35968464 C-0.306521406,4.13359901 -0.306521406,2.14572145 0.919564218,0.919635821 C2.14564984,-0.306449804 4.13352741,-0.306449804 5.35961303,0.919635821 L31.9999642,27.559987 L58.6403154,0.919635821 C59.4334537,0.126497436 60.589478,-0.183258385 61.6729252,0.107050386 C62.7563723,0.397359156 63.6026408,1.24362771 63.8929496,2.32707485 C64.1832584,3.41052199 63.8735026,4.56654632 63.0803642,5.35968464 L36.440013,32.0000358 Z"
+                              />
+                            </svg>
+                          </styled.svg>
+                        </CrossIcon>
+                      </Adornment>
+                    </div>
+                  </styled.div>
+                  <NameWrapper>
+                    <div
+                      className="sc-AykKG jZCPjH"
+                    >
+                      name12
+                    </div>
+                  </NameWrapper>
+                </li>
+              </styled.li>
+            </PeopleListItem>
+          </ul>
+        </styled.ul>
+      </div>
+    </ListWrapper>
+  </PeopleList>
+</Provider>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PeopleListItem should render correctly the name and the adornment snapshot 1`] = `
+<styled.li>
+  <styled.div>
+    <Adornment
+      name="Name"
+    />
+  </styled.div>
+  <NameWrapper>
+    Name
+  </NameWrapper>
+</styled.li>
+`;
